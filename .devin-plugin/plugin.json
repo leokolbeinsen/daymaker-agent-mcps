@@ -1,0 +1,11 @@
+{
+  "name": "daymaker-agent-mcps",
+  "displayName": "Daymaker delivery agent tools",
+  "version": "1.0.0",
+  "description": "Patch (phone calls from Leopold's number) and Superhuman Mail (contact@ and wholesale@) for Leopold's Daymaker delivery agent. No credentials in here: each server is connected with OAuth in Devin, Customize > MCPs.",
+  "keywords": ["Communication"],
+  "mcpServers": {
+    "patch": { "url": "https://www.patchmcp.com/mcp" },
+    "superhuman": { "url": "https://mcp.mail.superhuman.com/mcp" }
+  }
+}
